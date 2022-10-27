@@ -28,10 +28,6 @@ public class Character {
         texture.dispose();
     }
 
-    public void render() {
-
-    }
-
     public void moveTo(Vector3 direction) {
         position.add(direction);
     }
